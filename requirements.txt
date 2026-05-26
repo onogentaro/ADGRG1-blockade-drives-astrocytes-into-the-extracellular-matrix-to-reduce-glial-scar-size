@@ -1,0 +1,46 @@
+# ============================================================
+# Dependencies for all four notebooks (Fig_1-E, Fig_2A, Fig_2B-C, Fig_2D)
+# ============================================================
+# Versions are intentionally left unpinned. The original Fig_2D notebook
+# noted that the following combination was known to be compatible on
+# Google Colab (May 2025):
+#   numpy>=2.0,<2.1
+#   scipy>=1.14,<1.17.0
+#   matplotlib>=3.8
+#   seaborn>=0.13
+#   scanpy>=1.10
+#   numba>=0.61.0
+# If you hit compatibility errors, start from those pins.
+
+# Core scientific Python stack
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+tqdm
+scikit-learn
+scikit-misc
+
+# Single-cell analysis
+scanpy
+anndata
+leidenalg
+harmonypy
+scvelo
+
+# Cell type annotation / cross-species mapping
+celltypist
+mousipy
+
+# Cell-cell interaction analysis
+cellphonedb
+ktplotspy
+
+# Visualization (Fig_2A)
+pycirclize
+
+# Jupyter (only required for local execution; pre-installed on Colab)
+jupyter
+notebook
+ipykernel
