@@ -13,7 +13,7 @@ to run on either Google Colab or a local Jupyter environment.
 
 | File              | Figure   | Contents |
 |-------------------|----------|----------|
-| `Fig_1A-D.ipynb`   | Fig. 1E  | snRNA-seq QC, integration (Harmony), Leiden clustering, astrocyte subclustering (`Astro-NT_1`–`Astro-NT_6`), PAGA, subcluster composition by timepoint, and CellPhoneDB ligand–receptor analysis at 0d / 1d / 4d / 7d / 14d / 1m. |
+| `Fig_1A-D.ipynb`   | Fig. 1A-D  | snRNA-seq QC, integration (Harmony), Leiden clustering, astrocyte subclustering (`Astro-NT_1`–`Astro-NT_6`), PAGA, subcluster composition by timepoint, and CellPhoneDB ligand–receptor analysis at 0d / 1d / 4d / 7d / 14d / 1m. |
 | `Fig_2A.ipynb`    | Fig. 2A  | Circos plot of collagen-mediated ligand–receptor interactions at 7 d post-injury, with the COL3A1–ADGRG1 pair highlighted (`pycirclize`). |
 | `Fig_2B-C.ipynb`  | Fig. 2B–C | Bubble plot of COL3A1–ADGRG1 interactions (VLMC / ABC → Astro-NT) at 7 d (`ktplotspy`), and timecourse of interaction scores across 0d–1m. |
 | `Fig_2D.ipynb`    | Fig. 2D  | 3D spatial-transcriptomics visualization of Col3a1 / Adgrg1 / Gfap co-expression, with k-nearest-neighbor analysis. |
